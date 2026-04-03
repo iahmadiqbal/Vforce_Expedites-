@@ -35,7 +35,7 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <Header />
-        <main className="pt-[104px]">
+        <main>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/emergency-services" element={<EmergencyServices />} />

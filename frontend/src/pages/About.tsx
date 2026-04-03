@@ -4,7 +4,7 @@ import HeroBanner from "@/components/HeroBanner";
 import CTABanner from "@/components/CTABanner";
 
 const About = () => (
-  <div>
+  <div className="pt-[60px]">
     <HeroBanner image={heroHome} title="About Us" subtitle="Learn more about Vforce Expedites" compact />
 
     {/* Who We Are */}

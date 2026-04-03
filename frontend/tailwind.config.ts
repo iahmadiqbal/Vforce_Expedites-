@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom color scheme
+        "red-action": "#E53935",
+        "dark-blue": "#1A1F36",
+        "light-gray-bg": "#F5F5F5",
+        "accent-yellow": "#FFC107",
+        "medium-gray": "#9E9E9E",
+        "dark-gray": "#424242",
+        "light-blue": "#2196F3",
+        "orange-cta": "#FF9800",
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

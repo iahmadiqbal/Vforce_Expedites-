@@ -15,7 +15,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className="pt-[60px]">
       <HeroBanner image={heroHome} title="Contact Us" subtitle="Get in touch with our team" compact />
 
       <section className="section-padding">
