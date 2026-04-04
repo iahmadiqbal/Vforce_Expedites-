@@ -10,7 +10,7 @@ interface HeroBannerProps {
 }
 
 const HeroBanner = ({ image, title, subtitle, showButtons = false, compact = false }: HeroBannerProps) => (
-  <section className={`relative ${compact ? "py-20 md:py-28" : "py-28 md:py-40"} overflow-hidden`}>
+  <section className={`relative ${compact ? "py-16 md:py-24" : "py-28 md:py-40"} overflow-hidden`}>
     <img
       src={image}
       alt={title}
