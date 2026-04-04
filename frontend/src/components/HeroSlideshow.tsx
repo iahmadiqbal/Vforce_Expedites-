@@ -66,12 +66,12 @@ const HeroSlideshow = () => {
                 <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto text-white">
                   {slide.subtitle}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:+14034623578" className="btn-accent text-lg py-3 px-8">
-                    <Phone size={20} />
+                <div className="flex flex-row gap-3 justify-center items-stretch max-w-md mx-auto">
+                  <a href="tel:+14034623578" className="btn-accent text-sm md:text-base py-3 px-4 flex-1 inline-flex items-center justify-center gap-2">
+                    <Phone size={16} className="md:w-5 md:h-5" />
                     Immediate Help
                   </a>
-                  <Link to="/contact" className="btn-outline-primary text-lg py-3 px-8 bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary">
+                  <Link to="/contact" className="text-sm md:text-base py-3 px-4 bg-transparent backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-primary flex-1 rounded-md font-medium transition-all duration-300 inline-flex items-center justify-center gap-2">
                     Contact Us
                   </Link>
                 </div>

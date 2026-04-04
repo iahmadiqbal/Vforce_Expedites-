@@ -123,7 +123,7 @@ const TransportMoving = () => {
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[300px] object-cover rounded-lg shadow-lg"
+                  className="w-full h-[350px] md:h-[300px] object-cover rounded-lg shadow-lg"
                 />
               </div>
               

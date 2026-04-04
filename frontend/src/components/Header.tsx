@@ -45,7 +45,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card">
       <nav className="container-custom">
-        <div className="flex items-center justify-between py-3">
+        <div className="flex items-center justify-between py-5">
           {/* Left Side - Logo */}
           <Link to="/" className="text-foreground font-bold text-base md:text-lg tracking-tight font-poppins whitespace-nowrap">
             Vforce Expedites

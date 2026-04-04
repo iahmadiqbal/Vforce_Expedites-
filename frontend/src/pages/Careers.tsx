@@ -44,7 +44,7 @@ const Careers = () => (
               data-aos-delay={i * 100}
             >
               {/* Image */}
-              <div className="relative h-[180px] overflow-hidden">
+              <div className="relative h-[220px] md:h-[180px] overflow-hidden">
                 <img 
                   src={pos.image} 
                   alt={pos.title}

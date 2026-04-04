@@ -53,7 +53,7 @@ const HowItWorks = () => (
                 <img 
                   src={step.image} 
                   alt={step.title}
-                  className="w-full h-[350px] md:h-[450px] object-cover hover:scale-110 transition-transform duration-700"
+                  className="w-full h-[400px] md:h-[450px] object-cover hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute top-6 left-6 w-16 h-16 rounded-full bg-red-action text-white flex items-center justify-center text-3xl font-bold shadow-lg">
                   {step.num}
