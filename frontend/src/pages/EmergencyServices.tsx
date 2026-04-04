@@ -11,35 +11,35 @@ const services = [
     title: "24/7 Towing Services", 
     desc: "Our professional towing services are available around the clock to assist you whenever you need help. Whether you're stranded on the highway, stuck in a parking lot, or need a vehicle transported across town, our experienced drivers and modern fleet are ready to respond. We handle all types of vehicles including cars, SUVs, motorcycles, and light trucks with the utmost care and professionalism.", 
     icon: Truck,
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1200&h=800&fit=crop"
+    image: "/images/247 Towing Services.jpg"
   },
   { 
     id: "roadside-assistance",
     title: "Roadside Assistance", 
     desc: "When you're stuck on the side of the road, our comprehensive roadside assistance services are just a phone call away. We provide battery jump starts, fuel delivery, lockout services, and minor mechanical repairs to get you back on the road quickly. Our technicians carry all the necessary tools and equipment to handle most roadside emergencies efficiently, minimizing your wait time and getting you safely to your destination.", 
     icon: Wrench,
-    image: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=1200&h=800&fit=crop"
+    image: "/images/Roadside Assistance.jpg"
   },
   { 
     id: "breakdown-recovery",
     title: "Breakdown Recovery", 
     desc: "Vehicle breakdowns can happen at the most inconvenient times. Our breakdown recovery service ensures your vehicle is safely transported to your preferred repair facility or garage. We understand the stress of a breakdown, which is why our team works quickly and professionally to secure your vehicle and get it to where it needs to be. We handle everything from minor mechanical failures to major engine problems with equal care and attention.", 
     icon: Car,
-    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=800&fit=crop"
+    image: "/images/Breakdown Recovery.jpg"
   },
   { 
     id: "accident-assistance",
     title: "Accident Assistance", 
     desc: "In the unfortunate event of an accident, our team provides immediate assistance to help you through this stressful situation. We safely remove your vehicle from the accident scene and transport it to your chosen repair facility or storage location. Our drivers are trained to handle accident recovery with sensitivity and professionalism, and we work directly with insurance companies to streamline the claims process and documentation.", 
     icon: AlertTriangle,
-    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&h=800&fit=crop"
+    image: "/images/Accident Assistance.jpg"
   },
   { 
     id: "flat-tire-help",
     title: "Flat Tire Help", 
     desc: "A flat tire doesn't have to ruin your day. Our flat tire assistance service provides quick on-the-spot tire changes using your spare tire, or we can tow your vehicle to the nearest tire shop if needed. Our technicians are equipped with professional-grade tools to safely change your tire and get you back on the road in no time. We also inspect your spare tire to ensure it's safe for continued travel.", 
     icon: CircleDot,
-    image: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=1200&h=800&fit=crop"
+    image: "/images/Flat Tire Help.jpg"
   },
 ];
 
@@ -79,7 +79,7 @@ const EmergencyServices = () => {
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[350px] md:h-[300px] object-cover rounded-lg shadow-lg"
+                  className="w-full h-[450px] md:h-[500px] object-cover rounded-lg"
                 />
               </div>
               
