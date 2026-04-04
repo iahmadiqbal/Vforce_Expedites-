@@ -70,8 +70,8 @@ const Header = () => {
             />
             <NavItem to="/how-it-works" label="How It Works" active={isActive("/how-it-works")} />
             <NavItem to="/about" label="About Us" active={isActive("/about")} />
-            <NavItem to="/contact" label="Contact Us" active={isActive("/contact")} />
             <NavItem to="/careers" label="Careers" active={isActive("/careers")} />
+            <NavItem to="/contact" label="Contact Us" active={isActive("/contact")} />
           </ul>
 
           {/* Right Side - Phone + Button */}
@@ -147,8 +147,8 @@ const Header = () => {
 
               <MobileLink to="/how-it-works" label="How It Works" onClick={() => setMobileOpen(false)} />
               <MobileLink to="/about" label="About Us" onClick={() => setMobileOpen(false)} />
-              <MobileLink to="/contact" label="Contact Us" onClick={() => setMobileOpen(false)} />
               <MobileLink to="/careers" label="Careers" onClick={() => setMobileOpen(false)} />
+              <MobileLink to="/contact" label="Contact Us" onClick={() => setMobileOpen(false)} />
 
               {/* Mobile Phone + Button */}
               <div className="pt-4 px-3 space-y-3">
