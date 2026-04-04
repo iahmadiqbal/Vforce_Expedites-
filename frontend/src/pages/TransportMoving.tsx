@@ -10,7 +10,7 @@ const services = [
     subtitle: "House shifting • Local relocation",
     desc: "We handle your residential moves with care and professionalism. Our experienced team ensures all your belongings are safely packed, transported, and delivered to your new home. Whether you're moving across town or to a nearby area, we make house shifting stress-free and efficient with our reliable local relocation services.", 
     icon: Home,
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&h=800&fit=crop"
+    image: "/images/Local Moving Services.jpg"
   },
   { 
     id: "furniture-item-shifting",
@@ -18,7 +18,7 @@ const services = [
     subtitle: "Heavy item moving • Safe handling",
     desc: "We specialize in the safe handling of your valuable furniture and items. Our team uses protective materials and proper techniques to ensure nothing gets damaged during the move. From large furniture pieces to delicate items, we have the right equipment and trained personnel to move everything safely and securely.", 
     icon: Sofa,
-    image: "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=1200&h=800&fit=crop"
+    image: "/images/Furniture & Item Shifting.jpg"
   },
   { 
     id: "same-day-delivery",
@@ -26,7 +26,7 @@ const services = [
     subtitle: "Fast delivery • Urgent shipments",
     desc: "When you need something delivered quickly, our same-day delivery service is here to help. We prioritize speed and efficiency to ensure your items reach their destination the same day you need them. Whether it's important documents or critical packages, we handle time-sensitive deliveries with the highest priority.", 
     icon: Zap,
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=800&fit=crop"
+    image: "/images/Same-Day Delivery.jpg"
   },
   { 
     id: "small-load-transport",
@@ -34,7 +34,7 @@ const services = [
     subtitle: "Small goods transport • Budget-friendly solution",
     desc: "Perfect for transporting a few items or smaller loads. Our small goods transport service is ideal when you don't need a full truck but still want professional, reliable service for your belongings. We offer affordable rates without compromising on quality, ensuring you get professional service at prices that fit your budget.", 
     icon: Package,
-    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=1200&h=800&fit=crop"
+    image: "/images/Small Load Transport.jpg"
   },
   { 
     id: "business-logistics-support",
@@ -42,7 +42,7 @@ const services = [
     subtitle: "Business transport • Regular logistics service",
     desc: "We provide comprehensive logistics support tailored to your business needs. From inventory transport to supply chain management, we help keep your business operations running smoothly. Our regular transport services offer scheduled pickups and deliveries, providing consistent, reliable service that you can count on for your ongoing logistics needs.", 
     icon: Building,
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&h=800&fit=crop"
+    image: "/images/Business Logistics Support.jpg"
   },
 ];
 
@@ -104,7 +104,7 @@ const TransportMoving = () => {
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[350px] md:h-[400px] object-cover rounded-lg shadow-lg"
+                  className="w-full h-[450px] md:h-[500px] object-cover rounded-lg"
                 />
               </div>
               
