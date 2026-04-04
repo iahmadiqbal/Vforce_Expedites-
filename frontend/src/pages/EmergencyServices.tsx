@@ -79,7 +79,8 @@ const EmergencyServices = () => {
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[450px] md:h-[500px] object-cover rounded-lg"
+                  className="w-full h-[300px] md:h-[500px] object-cover object-center rounded-lg"
+                  loading="lazy"
                 />
               </div>
               

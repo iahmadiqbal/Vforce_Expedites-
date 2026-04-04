@@ -62,29 +62,31 @@ const TransportMoving = () => {
   return (
     <div className="pt-[64px]">
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 flex items-center justify-center overflow-hidden">
+      <section className="relative py-12 md:py-24 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img 
             src={heroTransport} 
             alt="Transport & Moving Services" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 text-white">
             Reliable Transport &<br />Moving Services
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
+          <p className="text-lg md:text-2xl mb-6 md:mb-8">
             Safe, Fast & Affordable Solutions
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="btn-primary text-lg py-3 px-8 bg-white text-red-action hover:bg-gray-100">
+          <div className="flex flex-row gap-3 md:gap-4 justify-center">
+            <Link to="/contact" className="btn-primary text-sm md:text-lg py-2 md:py-3 px-4 md:px-8 bg-white text-red-action hover:bg-gray-100">
               Contact Us
             </Link>
-            <a href="tel:+14034623578" className="btn-accent text-lg py-3 px-8 inline-flex items-center justify-center gap-2">
-              <Phone size={20} />
-              Immediate Help
+            <a href="tel:+14034623578" className="btn-accent text-sm md:text-lg py-2 md:py-3 px-4 md:px-8 inline-flex items-center justify-center gap-2">
+              <Phone size={18} className="md:w-5 md:h-5" />
+              <span className="hidden sm:inline">Immediate Help</span>
+              <span className="sm:hidden">Call Now</span>
             </a>
           </div>
         </div>
@@ -104,7 +106,8 @@ const TransportMoving = () => {
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[450px] md:h-[500px] object-cover rounded-lg"
+                  className="w-full h-[300px] md:h-[500px] object-cover object-center rounded-lg"
+                  loading="lazy"
                 />
               </div>
               

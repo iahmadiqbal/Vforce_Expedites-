@@ -57,7 +57,8 @@ const About = () => (
             <img 
               src="/images/Who We Are.jpg" 
               alt="Who We Are"
-              className="w-full h-[350px] md:h-[400px] object-cover rounded-lg shadow-xl"
+              className="w-full h-[300px] md:h-[400px] object-cover object-center rounded-lg shadow-xl"
+              loading="lazy"
             />
           </div>
         </div>
@@ -131,7 +132,8 @@ const About = () => (
                 <img 
                   src={item.image} 
                   alt={item.title}
-                  className="w-full h-[350px] md:h-[400px] object-cover hover:scale-110 transition-transform duration-700"
+                  className="w-full h-[300px] md:h-[400px] object-cover object-center hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
               </div>
               

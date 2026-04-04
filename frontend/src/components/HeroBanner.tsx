@@ -14,9 +14,10 @@ const HeroBanner = ({ image, title, subtitle, showButtons = false, compact = fal
     <img
       src={image}
       alt={title}
-      className="absolute inset-0 w-full h-full object-cover"
+      className="absolute inset-0 w-full h-full object-cover object-center"
       width={1920}
       height={800}
+      loading="lazy"
     />
     <div className="hero-overlay" />
     <div className="container-custom relative z-10 text-center">
