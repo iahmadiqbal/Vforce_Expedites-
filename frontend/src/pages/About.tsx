@@ -8,28 +8,28 @@ const whyUs = [
     icon: Clock, 
     title: "24/7 Availability", 
     desc: "We understand that emergencies don't follow a schedule. That's why our team is available round-the-clock, 365 days a year. Whether it's midnight or a holiday, we're just one call away to help you.",
-    image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800&h=600&fit=crop",
+    image: "/images/24  available.jpg",
     animation: "fade-right"
   },
   { 
     icon: Zap, 
     title: "Fast Response Time", 
     desc: "Time is critical in emergency situations. Our strategically located fleet and efficient dispatch system ensure we reach you quickly. We pride ourselves on being the fastest response team in the region.",
-    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop",
+    image: "/images/Fast Response Time.jpg",
     animation: "fade-left"
   },
   { 
     icon: DollarSign, 
     title: "Affordable Pricing", 
     desc: "Quality service doesn't have to break the bank. We offer competitive rates with complete transparency - no hidden fees, no surprises. Get professional service at prices that respect your budget.",
-    image: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&h=600&fit=crop",
+    image: "/images/Affordable Pricing.jpg",
     animation: "fade-right"
   },
   { 
     icon: Shield, 
     title: "Professional Service", 
     desc: "Our team consists of trained, licensed, and insured professionals who treat your vehicle with care. With years of experience and state-of-the-art equipment, we deliver service you can trust.",
-    image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&h=600&fit=crop",
+    image: "/images/Professional Service.jpg",
     animation: "fade-left"
   },
 ];
@@ -55,7 +55,7 @@ const About = () => (
           </div>
           <div data-aos="fade-left">
             <img 
-              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop" 
+              src="/images/Who We Are.jpg" 
               alt="Who We Are"
               className="w-full h-[350px] md:h-[400px] object-cover rounded-lg shadow-xl"
             />
