@@ -90,10 +90,9 @@ const EmergencyServices = () => {
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">{service.title}</h2>
                 <p className="text-muted-foreground text-lg mb-6 leading-relaxed">{service.desc}</p>
-                <a href="tel:+14034623578" className="btn-accent inline-flex items-center gap-2">
-                  <Phone size={20} />
-                  Call Now for Immediate Assistance
-                </a>
+                <Link to="/contact" className="btn-primary inline-block">
+                  Contact Us
+                </Link>
               </div>
             </div>
           </div>
