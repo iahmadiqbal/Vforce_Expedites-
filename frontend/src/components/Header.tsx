@@ -11,11 +11,11 @@ const emergencyLinks = [
 ];
 
 const transportLinks = [
-  { label: "Local Moving Services", path: "/transport-moving", hash: "#local-moving" },
-  { label: "Furniture & Item Shifting", path: "/transport-moving", hash: "#furniture-shifting" },
+  { label: "Local Moving Services", path: "/transport-moving", hash: "#local-moving-services" },
+  { label: "Furniture & Item Shifting", path: "/transport-moving", hash: "#furniture-item-shifting" },
   { label: "Same-Day Delivery", path: "/transport-moving", hash: "#same-day-delivery" },
   { label: "Small Load Transport", path: "/transport-moving", hash: "#small-load-transport" },
-  { label: "Business Logistics Support", path: "/transport-moving", hash: "#business-logistics" },
+  { label: "Business Logistics Support", path: "/transport-moving", hash: "#business-logistics-support" },
 ];
 
 const Header = () => {
