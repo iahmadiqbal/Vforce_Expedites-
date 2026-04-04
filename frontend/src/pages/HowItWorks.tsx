@@ -9,21 +9,21 @@ const steps = [
     icon: Phone,
     title: "Request a Service",
     desc: "Contact us via our online form or give us a call. Tell us what you need and where you are. Our friendly team is ready to assist you 24/7 with any emergency or scheduled service.",
-    image: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=800&h=600&fit=crop"
+    image: "/images/Request a Service.jpg"
   },
   {
     num: "2",
     icon: Truck,
     title: "We Assign a Vehicle",
     desc: "The nearest available truck is assigned immediately and dispatched to your location. Our advanced GPS tracking system ensures the fastest possible response time to get you help when you need it most.",
-    image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=800&h=600&fit=crop"
+    image: "/images/We Assign a Vehicle.jpg"
   },
   {
     num: "3",
     icon: CheckCircle,
     title: "Track & Complete Job",
     desc: "Service is completed quickly and efficiently. Your satisfaction is our priority. Our professional team ensures your vehicle is handled with care and the job is done right the first time.",
-    image: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?w=800&h=600&fit=crop"
+    image: "/images/Track & Complete Job.jpg"
   },
 ];
 

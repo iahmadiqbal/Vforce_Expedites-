@@ -8,19 +8,19 @@ const positions = [
     icon: Truck,
     title: "Driver / Operator",
     desc: "Operate tow trucks and transport vehicles safely and efficiently. Must have valid commercial driver's license (CDL) with clean driving record and hands-on experience with towing equipment. Responsibilities include vehicle recovery, roadside assistance, and ensuring customer satisfaction during emergency situations.",
-    image: "https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?w=800&h=500&fit=crop"
+    image: "/images/DriverOperator.jpg"
   },
   {
     icon: Headphones,
     title: "Customer Support Executive",
     desc: "Handle incoming emergency calls, coordinate dispatches with drivers, and provide excellent customer service during stressful situations. Strong communication and multitasking skills required. You'll be the first point of contact for customers in need, managing schedules and ensuring timely response to all service requests.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=500&fit=crop"
+    image: "/images/Customer Support Executive.jpg"
   },
   {
     icon: Users,
     title: "Fleet Coordinator",
     desc: "Manage fleet operations, schedule regular maintenance, coordinate logistics, and ensure all vehicles are road-ready. Experience in fleet management preferred. You'll oversee vehicle assignments, track maintenance schedules, manage inventory of equipment, and optimize routes for maximum efficiency and cost-effectiveness.",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=500&fit=crop"
+    image: "/images/Fleet Coordinator.jpg"
   },
 ];
 
@@ -51,11 +51,6 @@ const Careers = () => (
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                <div className="absolute bottom-3 left-3">
-                  <div className="w-12 h-12 rounded-full bg-accent-yellow flex items-center justify-center shadow-lg">
-                    <pos.icon size={22} className="text-white" />
-                  </div>
-                </div>
               </div>
               
               {/* Content */}
