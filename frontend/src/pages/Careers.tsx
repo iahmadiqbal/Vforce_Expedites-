@@ -25,7 +25,7 @@ const positions = [
 ];
 
 const Careers = () => (
-  <div className="pt-[72px]">
+  <div className="pt-[64px]">
     <HeroBanner image={heroHome} title="Careers" subtitle="Join our team and make a difference" compact />
 
     <section className="section-padding">

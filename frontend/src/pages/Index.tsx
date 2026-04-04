@@ -68,7 +68,7 @@ const whyUs = [
 ];
 
 const Index = () => (
-  <div className="pt-[72px]">
+  <div className="pt-[64px]">
     {/* Hero Slideshow */}
     <HeroSlideshow />
 

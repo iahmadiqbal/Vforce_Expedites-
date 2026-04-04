@@ -101,7 +101,7 @@ const TransportMoving = () => {
   }, []);
 
   return (
-    <div className="pt-[72px]">
+    <div className="pt-[64px]">
       <HeroBanner
         image={heroTransport}
         title="Transport & Moving Services"

@@ -35,7 +35,7 @@ const whyUs = [
 ];
 
 const About = () => (
-  <div className="pt-[72px]">
+  <div className="pt-[64px]">
     <HeroBanner image={heroHome} title="About Us" subtitle="Learn more about Vforce Expedites" compact />
 
     {/* Who We Are */}

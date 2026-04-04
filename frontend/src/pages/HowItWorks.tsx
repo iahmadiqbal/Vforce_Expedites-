@@ -28,7 +28,7 @@ const steps = [
 ];
 
 const HowItWorks = () => (
-  <div className="pt-[72px]">
+  <div className="pt-[64px]">
     <HeroBanner
       image={heroHome}
       title="How It Works"
