@@ -36,23 +36,23 @@ const Footer = () => (
         <div>
           <h3 className="text-sm font-semibold mb-3 text-primary-foreground">Contact Info</h3>
           <div className="space-y-2 text-sm">
-            <div className="flex items-start gap-1">
-              <span className="text-primary-foreground">📧 info@vforceexpedites.com</span>
-            </div>
-            <div className="flex items-start gap-1">
-              <span className="text-primary-foreground">📧 vforceexpedite@gmail.com</span>
-            </div>
-            <div className="flex items-start gap-1">
-              <span className="text-primary-foreground">🌐 www.vforceexpedites.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone size={14} className="shrink-0 text-primary-foreground" />
-              <span className="text-primary-foreground">+1 403-462-3578</span>
-            </div>
-            <div className="flex items-start gap-2">
-              <MapPin size={14} className="mt-0.5 shrink-0 text-primary-foreground" />
-              <span className="text-primary-foreground">21 Piggy Place, St. John's NL, A1B 3X2</span>
-            </div>
+            <a href="mailto:info@vforceexpedites.com" className="flex items-start gap-1 text-primary-foreground hover:text-accent transition-colors">
+              <span>📧 info@vforceexpedites.com</span>
+            </a>
+            <a href="mailto:vforceexpedite@gmail.com" className="flex items-start gap-1 text-primary-foreground hover:text-accent transition-colors">
+              <span>📧 vforceexpedite@gmail.com</span>
+            </a>
+            <a href="https://www.vforceexpedites.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-1 text-primary-foreground hover:text-accent transition-colors">
+              <span>🌐 www.vforceexpedites.com</span>
+            </a>
+            <a href="tel:+14034623578" className="flex items-center gap-2 text-primary-foreground hover:text-accent transition-colors">
+              <Phone size={14} className="shrink-0" />
+              <span>+1 403-462-3578</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=21+Piggy+Place+St+John's+NL+A1B+3X2" target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 text-primary-foreground hover:text-accent transition-colors">
+              <MapPin size={14} className="mt-0.5 shrink-0" />
+              <span>21 Piggy Place, St. John's NL, A1B 3X2</span>
+            </a>
           </div>
         </div>
 
