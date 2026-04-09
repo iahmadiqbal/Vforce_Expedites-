@@ -47,8 +47,8 @@ const Header = () => {
       <nav className="container-custom">
         <div className="flex items-center justify-between py-5">
           {/* Left Side - Logo */}
-          <Link to="/" className="text-foreground font-bold text-base md:text-lg tracking-tight font-poppins whitespace-nowrap">
-            Vforce Expedites
+          <Link to="/" className="flex items-center">
+            <img src="/xforcelogo.png" alt="Vforce Xpedites" className="h-12 md:h-14" />
           </Link>
 
           {/* Center - Menu Items (Desktop) */}
@@ -74,9 +74,8 @@ const Header = () => {
             <NavItem to="/contact" label="Contact Us" active={isActive("/contact")} />
           </ul>
 
-          {/* Right Side - Phone + Button */}
+          {/* Right Side - Button */}
           <div className="hidden lg:flex items-center gap-2 whitespace-nowrap flex-shrink-0">
-            <span className="text-foreground text-sm font-medium">+1 403-462-3578</span>
             <a href="tel:+14034623578" className="btn-accent text-sm py-2 px-3">
               <Phone size={16} />
               Immediate Help
@@ -152,7 +151,6 @@ const Header = () => {
 
               {/* Mobile Phone + Button */}
               <div className="pt-4 px-3 space-y-3">
-                <div className="text-foreground text-sm font-medium">+1 403-462-3578</div>
                 <a href="tel:+14034623578" className="btn-accent text-sm py-2 px-4 w-full justify-center">
                   <Phone size={16} />
                   Immediate Help
