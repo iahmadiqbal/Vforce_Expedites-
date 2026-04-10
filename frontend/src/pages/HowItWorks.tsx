@@ -8,21 +8,21 @@ const steps = [
     num: "1",
     icon: Phone,
     title: "Request a Service",
-    desc: "Contact us via our online form or give us a call. Tell us what you need and where you are. Our friendly team is ready to assist you 24/7 with any emergency or scheduled service.",
+    desc: "To request our service, you can easily contact us through our online form or by giving us a direct call anytime, 24/7. Simply tell us what type of service you need—whether it is towing, roadside assistance, transport, or delivery—and share your exact location so we can reach you quickly. Once we receive your request, our team immediately reviews the details and dispatches the nearest available vehicle or technician to assist you without delay. Our support team is always available to guide you, answer your questions, and ensure your request is handled smoothly from start to finish. Whether it is an emergency situation or a scheduled service, we are ready to help you at any time with fast and reliable support.",
     image: "/images/Request a Service.jpg"
   },
   {
     num: "2",
     icon: Truck,
     title: "We Assign a Vehicle",
-    desc: "The nearest available truck is assigned immediately and dispatched to your location. Our advanced GPS tracking system ensures the fastest possible response time to get you help when you need it most.",
+    desc: "Once we receive your request, we immediately assign the nearest available vehicle to ensure the fastest possible response. Our system quickly identifies the closest driver or truck based on your location so help can reach you without unnecessary delay. After assignment, the vehicle is dispatched right away to your location, and our team stays in coordination to ensure smooth and timely service. We use an efficient dispatch system and GPS tracking to reduce waiting time and improve accuracy in reaching you as fast as possible. Our main focus is to provide quick response, reliable assistance, and stress-free support whenever you need help on the road or for transport services.",
     image: "/images/We Assign a Vehicle.jpg"
   },
   {
     num: "3",
     icon: CheckCircle,
     title: "Track & Complete Job",
-    desc: "Service is completed quickly and efficiently. Your satisfaction is our priority. Our professional team ensures your vehicle is handled with care and the job is done right the first time.",
+    desc: "Once your service request is assigned and the vehicle reaches your location, our team carefully tracks the entire process to ensure everything is handled smoothly and without delays. We focus on completing the job quickly, safely, and in a fully professional manner. Our trained staff makes sure your vehicle is handled with proper care at every step, whether it is towing, roadside assistance, or transport. From start to finish, we follow a clear process to ensure the job is done correctly the first time without unnecessary delays or repeated issues. Your satisfaction and safety are our top priorities, and we make sure you are informed and supported until the service is fully completed and your problem is resolved.",
     image: "/images/Track & Complete Job.jpg"
   },
 ];
@@ -72,7 +72,7 @@ const HowItWorks = () => (
                   <step.icon size={40} />
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
-                <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-6">
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-6 text-justify">
                   {step.desc}
                 </p>
                 {i < steps.length - 1 && (
