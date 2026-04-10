@@ -31,8 +31,8 @@ const Careers = () => (
     <section className="section-padding">
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-4">Join Our Team</h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
-          Looking for motivated individuals to join our growing team. If you're passionate about helping people and delivering reliable service, we want you. We value teamwork and professionalism, offering a supportive environment to grow your career in transport and roadside assistance.
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+          Join our growing team. We're looking for passionate individuals who value teamwork and professionalism in transport and roadside assistance.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

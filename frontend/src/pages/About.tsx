@@ -36,7 +36,7 @@ const whyUs = [
 
 const About = () => (
   <div className="pt-[64px]">
-    <HeroBanner image={heroHome} title="About Us" subtitle="Learn more about Vforce Expedites" compact />
+    <HeroBanner image={heroHome} title="About Us" subtitle="Learn more about Vforce Xpedites" compact />
 
     {/* Who We Are */}
     <section className="section-padding bg-white">
@@ -104,7 +104,7 @@ const About = () => (
     <section className="section-padding bg-white">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Why Choose Us</h2>
-        <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+        <p className="text-center text-muted-foreground mb-16 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
           Reliable towing and transport with quick response times and professional care. We prioritize your safety and peace of mind in every job.
         </p>
         

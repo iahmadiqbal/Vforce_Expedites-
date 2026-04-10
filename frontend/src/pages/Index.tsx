@@ -92,7 +92,7 @@ const Index = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Why Choose Us
         </h2>
-        <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+        <p className="text-center text-muted-foreground mb-16 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
           Reliable towing and transport with quick response times and professional care. We prioritize your safety and peace of mind in every job.
         </p>
 
@@ -145,7 +145,7 @@ const Index = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Our Services
         </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+        <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
           Complete towing, transport, roadside assistance, and delivery solutions for emergencies and daily needs.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
