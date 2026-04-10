@@ -48,7 +48,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-5">
           {/* Left Side - Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/xforcelogo.png" alt="Vforce Xpedites" className="h-12 md:h-14" />
+            <img src="/logo.png" alt="Vforce Xpedites" className="h-12 md:h-14" />
           </Link>
 
           {/* Center - Menu Items (Desktop) */}

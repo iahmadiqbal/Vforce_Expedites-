@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* About */}
         <div className="flex flex-col items-start">
-          <img src="/xforcelogo.png" alt="Vforce Xpedites" className="h-14 mb-3" />
+          <img src="/logo.png" alt="Vforce Xpedites" className="h-14 mb-3" />
           <p className="text-primary-foreground text-sm leading-relaxed">
             17837348 Canada Corporations<br />operating as Vforce Xpedites
           </p>

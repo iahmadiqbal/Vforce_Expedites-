@@ -73,7 +73,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Our Address</h3>
-                    <p className="text-muted-foreground">473033 Dufferin Country Road 11, Orangeville, ON</p>
+                    <a 
+                      href="https://www.google.com/maps/search/?api=1&query=21+Piggy+Place+St+John's+NL+A1B+3X2" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-accent transition-colors"
+                    >
+                      21 Piggy Place, St. John's NL, A1B 3X2
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -91,7 +98,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@vforceexpedites.com</p>
+                    <a href="mailto:info@vforceexpedites.com" className="text-muted-foreground hover:text-accent transition-colors block">
+                      info@vforceexpedites.com
+                    </a>
+                    <a href="mailto:vforceexpedite@gmail.com" className="text-muted-foreground hover:text-accent transition-colors block">
+                      vforceexpedite@gmail.com
+                    </a>
                   </div>
                 </div>
               </div>
