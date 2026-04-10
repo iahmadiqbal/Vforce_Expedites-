@@ -8,7 +8,7 @@ const services = [
     id: "local-moving-services",
     title: "Local Moving Services", 
     subtitle: "House shifting • Local relocation",
-    desc: "Our local moving service is designed to make your house shifting and local relocation completely easy, safe, and stress-free. Whether you are moving to a new house within the same city or relocating to a nearby area, our experienced team carefully handles the entire moving process from start to finish. We begin by properly packing your household items using safe packing methods to protect them from any damage during transport. After packing, all items including furniture, appliances, boxes, and personal belongings are carefully loaded into our vehicles using proper equipment to ensure everything stays secure during the journey. Once everything is safely transported, we unload and place your items at your new location with care and attention. Our goal is to make your move smooth, organized, and completely hassle-free so you can focus on settling into your new home without any stress or difficulty.", 
+    desc: "Easy, safe house shifting and local relocation. We pack, load, transport, and unload your items with care. Professional handling from start to finish for a stress-free move.", 
     icon: Home,
     image: "/images/Local Moving Services.jpg"
   },
@@ -16,7 +16,7 @@ const services = [
     id: "furniture-item-shifting",
     title: "Furniture & Item Shifting", 
     subtitle: "Heavy item moving • Safe handling",
-    desc: "Our furniture and item shifting service is focused on safely moving all types of household and office belongings without any damage. Whether you are relocating a single heavy item or an entire set of furniture, our trained team handles everything with care and responsibility. We use proper lifting techniques, protective packing materials, and secure loading methods to ensure your items stay safe throughout the entire moving process. Large furniture such as beds, sofas, wardrobes, tables, and appliances are carefully disassembled if needed, then safely transported and reassembled at your destination. We also take extra care of delicate and valuable items by properly wrapping and securing them to avoid scratches, breakage, or any kind of damage. Our goal is to provide a smooth, safe, and stress-free moving experience where every item reaches its destination exactly as it was picked up.", 
+    desc: "Safe moving for all furniture and household items. We use proper lifting, protective packing, and secure loading. Large items are disassembled, transported, and reassembled at your destination.", 
     icon: Sofa,
     image: "/images/Furniture & Item Shifting.jpg"
   },
@@ -24,7 +24,7 @@ const services = [
     id: "same-day-delivery",
     title: "Same-Day Delivery", 
     subtitle: "Fast delivery • Urgent shipments",
-    desc: "Our same-day delivery service is designed for urgent situations where your items need to reach their destination as quickly as possible without delay. When you request this service, we immediately arrange pickup from your location and ensure your parcel is delivered on the same day, within local city limits or nearby areas where fast transport is possible. This service is ideal for important documents, business packages, personal parcels, or any time-sensitive items that cannot wait until the next day. Once we collect your item, our team carefully handles it throughout the entire process to ensure it remains safe and secure until delivery. We assign the nearest available driver to reduce travel time and ensure fast dispatch. Our goal is to provide you with a reliable, fast, and hassle-free delivery experience so your urgent items always reach the right place on time.", 
+    desc: "Urgent delivery within the same day. Immediate pickup with fast dispatch to your destination. Perfect for important documents, business packages, or time-sensitive items.", 
     icon: Zap,
     image: "/images/Same-Day Delivery.jpg"
   },
@@ -32,7 +32,7 @@ const services = [
     id: "small-load-transport",
     title: "Small Load Transport", 
     subtitle: "Small goods transport • Budget-friendly solution",
-    desc: "Our small load transport service is designed for situations where you only need to move a few items or a small quantity of goods without hiring a full truck. This service is ideal for individuals or businesses who want a simple, affordable, and reliable transport solution for limited loads such as small furniture, boxes, appliances, personal items, or light commercial goods. Once you book the service, we arrange a suitable vehicle based on the size of your load and ensure everything is safely loaded and properly secured for transport. Even though it is a small load service, we still follow professional handling standards to make sure your items are protected throughout the journey and reach their destination safely. This option is budget-friendly because you only pay for the space and service you actually need, making it a cost-effective solution for short-distance or small quantity transport needs. Our goal is to provide you with a fast, safe, and affordable way to move small loads without any hassle or extra cost.", 
+    desc: "Affordable transport for small loads. Perfect for a few items, boxes, or light goods. Pay only for the space you need—budget-friendly and reliable.", 
     icon: Package,
     image: "/images/Small Load Transport.jpg"
   },
@@ -40,7 +40,7 @@ const services = [
     id: "business-logistics-support",
     title: "Business Logistics Support", 
     subtitle: "Business transport • Regular logistics service",
-    desc: "Our business logistics support service is designed to help companies manage their daily transport and delivery needs in a smooth and reliable way. We provide complete support for moving business goods such as inventory, stock, equipment, and commercial supplies from one location to another. Whether you need one-time transport or regular scheduled deliveries, we ensure your business operations continue without delays or interruptions. Once you partner with us, we organize pickups and deliveries based on your business requirements and timelines, making sure everything is handled on time and in proper condition. We focus on safe handling, timely delivery, and consistent service so your supply chain stays efficient and well-organized. This service is especially useful for businesses that need ongoing logistics support without managing their own transport system. Our goal is to provide you with a dependable transport solution that helps your business run smoothly and grow without logistical stress.", 
+    desc: "Complete logistics support for businesses. Regular or one-time transport for inventory, equipment, and supplies. Timely delivery to keep your operations running smoothly.", 
     icon: Building,
     image: "/images/Business Logistics Support.jpg"
   },

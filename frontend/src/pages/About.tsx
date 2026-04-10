@@ -7,28 +7,28 @@ const whyUs = [
   { 
     icon: Clock, 
     title: "24/7 Availability", 
-    desc: "Emergencies don't follow a schedule — and neither do we. Our team is available 24 hours a day, 7 days a week, including weekends and holidays, to provide immediate assistance whenever you need it. Whether you're stuck on the road late at night or facing an unexpected issue during the day, we respond quickly and efficiently. With just one call, help is always within reach, ensuring you're never left stranded.",
+    desc: "Emergencies happen anytime. We're available 24/7, including weekends and holidays. One call and help is on the way—you're never left stranded.",
     image: "/images/24  available.jpg",
     animation: "fade-right"
   },
   { 
     icon: Zap, 
     title: "Fast Response Time", 
-    desc: "In emergency situations, every minute matters. Our strategically positioned fleet and efficient dispatch system allow us to respond quickly to your location without unnecessary delays. As soon as you contact us, our team takes immediate action to reach you as fast as possible. We focus on minimizing your waiting time and getting you back on track safely and efficiently.",
+    desc: "Every minute counts. Our strategically positioned fleet and efficient dispatch get us to you quickly, minimizing your wait time.",
     image: "/images/Fast Response Time.jpg",
     animation: "fade-left"
   },
   { 
     icon: DollarSign, 
     title: "Affordable Pricing", 
-    desc: "We believe quality service should be affordable for everyone. That's why we offer fair and competitive prices that are easy to understand. There are no hidden charges or surprise costs — you only pay for the service you receive. Before we start, we clearly explain the cost so you know exactly what you are paying for. Our goal is to give you reliable service at a price that fits your budget without any confusion.",
+    desc: "Quality service at fair prices. No hidden charges—we explain costs upfront so you know exactly what you're paying for.",
     image: "/images/Affordable Pricing.jpg",
     animation: "fade-right"
   },
   { 
     icon: Shield, 
     title: "Professional Service", 
-    desc: "Our team is fully trained, licensed, and insured to provide safe and reliable service. We handle every vehicle with care and follow proper safety procedures in every job. With years of experience and modern equipment, we make sure your vehicle is treated properly from start to finish. You can trust us to deliver professional and secure service every time.",
+    desc: "Fully trained, licensed, and insured team. We handle every vehicle with care using modern equipment and proper safety procedures.",
     image: "/images/Professional Service.jpg",
     animation: "fade-left"
   },
@@ -45,7 +45,7 @@ const About = () => (
           <div data-aos="fade-right">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
             <p className="text-muted-foreground leading-relaxed text-base md:text-lg mb-4">
-              We are a professional emergency towing and transport service provider based in Orangeville, Ontario, dedicated to helping people in roadside emergencies and transport needs. With years of experience in the industry, we have built a strong reputation for delivering fast, reliable, and professional services that people can trust in urgent situations. Our team is made up of trained and skilled professionals who are available 24/7 to assist you anytime, whether it is day or night, weekday or holiday. We combine modern towing equipment, advanced tools, and efficient service methods with hands-on experience to ensure every job is handled safely and correctly. From emergency towing and roadside assistance to transport and recovery services, our focus is always on providing quick response, safe handling, and complete customer satisfaction in every situation.
+              We're a professional emergency towing and transport service in Orangeville, Ontario. With years of experience, we've built a reputation for fast, reliable service you can trust. Our trained team is available 24/7 with modern equipment to handle any roadside emergency or transport need safely and efficiently.
             </p>
           </div>
           <div data-aos="fade-left">
@@ -75,7 +75,7 @@ const About = () => (
               </div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-                Our mission is to provide fast, reliable, and professional emergency towing and transport services that people can depend on in any situation. We are committed to being available whenever you need help the most, especially during roadside emergencies, breakdowns, or urgent transport needs. Our goal is to respond quickly, reach your location without unnecessary delays, and provide safe and efficient service from start to finish. We focus on delivering high-quality service at fair and affordable prices while maintaining complete transparency, so you always know what to expect without hidden charges or confusion. Integrity, honesty, and customer satisfaction are at the core of everything we do, and we continuously work to improve our response time, service quality, and overall customer experience to make sure you always receive dependable support when it matters most.
+                To provide fast, reliable emergency towing and transport services you can depend on. We're available 24/7 with quick response times and safe, efficient service at fair prices. Integrity and customer satisfaction drive everything we do.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ const About = () => (
               </div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-                Our vision is to become the most trusted and dependable towing and transport service provider in Ontario, known for delivering consistent, high-quality, and reliable assistance in every situation. We aim to build long-term trust with our customers by always providing professional service, quick response times, and safe handling of every vehicle and transport job. Our goal is to set a new standard in the industry by focusing on excellence, transparency, and customer satisfaction at every step of the service process. We continuously work to improve our systems, training, and equipment so that we can offer the most efficient and stress-free experience possible. Ultimately, we want to be the first name people think of when they need emergency towing, roadside assistance, or transport services they can truly rely on.
+                To become Ontario's most trusted towing and transport provider, known for consistent quality and reliability. We aim to set new industry standards through excellence, transparency, and customer satisfaction—becoming the first name people think of when they need help.
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ const About = () => (
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Why Choose Us</h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
-          We are committed to delivering reliable and efficient towing and transport services with a strong focus on customer satisfaction. Whether it's an emergency or a scheduled service, our team ensures quick response times, professional handling, and complete peace of mind. We understand how stressful roadside situations can be, which is why we prioritize safety, transparency, and care in every job we handle.
+          Reliable towing and transport with quick response times and professional care. We prioritize your safety and peace of mind in every job.
         </p>
         
         <div className="space-y-16">

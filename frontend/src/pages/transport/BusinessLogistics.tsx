@@ -6,7 +6,7 @@ const BusinessLogistics = () => (
     image={heroTransport}
     title="Business Logistics Support"
     subtitle="Logistics solutions for businesses"
-    description="We provide regular transport services and logistics support for businesses of all sizes. From scheduled pickups to dedicated fleet availability, we keep your business moving."
+    description="Regular transport and logistics support for businesses. Scheduled pickups and dedicated fleet keep your business moving."
     features={[
       { text: "Scheduled pickups" },
       { text: "Business contracts" },

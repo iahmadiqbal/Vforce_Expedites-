@@ -6,7 +6,7 @@ const SmallLoadTransport = () => (
     image={heroTransport}
     title="Small Load Transport"
     subtitle="Cost-effective small goods transport"
-    description="Our small load transport service offers economical solutions for transporting smaller goods. Quick dispatch and door-to-door service make it hassle-free."
+    description="Economical transport for smaller goods. Quick dispatch with door-to-door service."
     features={[
       { text: "Small parcel transport" },
       { text: "Economical pricing" },

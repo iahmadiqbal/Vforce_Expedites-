@@ -6,7 +6,7 @@ const RoadsideAssistance = () => (
     image={heroEmergency}
     title="Roadside Assistance"
     subtitle="Help when you need it most"
-    description="Our roadside assistance covers battery jump starts, minor mechanical issues, locked out assistance, and fuel delivery. We ensure you get back on the road as quickly as possible."
+    description="Battery jump starts, lockout help, fuel delivery, and minor repairs. We get you back on the road quickly."
     features={[
       { text: "Battery jump start service" },
       { text: "Locked out / key assistance" },

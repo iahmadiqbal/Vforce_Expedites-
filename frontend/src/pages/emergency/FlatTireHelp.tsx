@@ -6,7 +6,7 @@ const FlatTireHelp = () => (
     image={heroEmergency}
     title="Flat Tire Help"
     subtitle="Quick tire replacement on the spot"
-    description="Got a flat tire? Our team provides quick tire replacement and on-the-spot tire support for all vehicle types. We'll have you back on the road in no time."
+    description="Quick tire replacement on the spot for all vehicle types. Back on the road in no time."
     features={[
       { text: "On-spot tire replacement" },
       { text: "Spare tire installation" },

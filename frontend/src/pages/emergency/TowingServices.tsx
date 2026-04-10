@@ -6,7 +6,7 @@ const TowingServices = () => (
     image={heroEmergency}
     title="24/7 Towing Services"
     subtitle="Emergency towing anytime, anywhere"
-    description="We provide round-the-clock emergency towing services for all vehicle types. Whether you're stranded on the highway or in a parking lot, our professional team will be there fast to safely tow your vehicle to your desired destination."
+    description="Round-the-clock emergency towing for all vehicle types. Fast response to safely tow your vehicle wherever you need it."
     features={[
       { text: "Available 24 hours, 7 days a week" },
       { text: "Fast response within minutes" },

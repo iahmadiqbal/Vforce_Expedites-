@@ -6,7 +6,7 @@ const FurnitureShifting = () => (
     image={heroTransport}
     title="Furniture & Item Shifting"
     subtitle="Safe handling of heavy items"
-    description="We specialize in safe handling and transport of heavy items and furniture. Our team uses protective wrapping and professional equipment to ensure your belongings arrive in perfect condition."
+    description="Safe handling and transport of heavy items and furniture. Protective wrapping and professional equipment ensure perfect condition delivery."
     features={[
       { text: "Professional handling" },
       { text: "Heavy item transport" },

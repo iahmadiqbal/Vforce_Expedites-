@@ -6,7 +6,7 @@ const AccidentAssistance = () => (
     image={heroEmergency}
     title="Accident Assistance"
     subtitle="Immediate help during accidents"
-    description="We provide immediate assistance at accident scenes. Our team safely removes and tows vehicles, coordinates with authorities, and ensures all safety protocols are followed."
+    description="Immediate help at accident scenes. Safe vehicle removal with coordination and safety protocols followed."
     features={[
       { text: "Rapid accident response" },
       { text: "Safe vehicle removal" },

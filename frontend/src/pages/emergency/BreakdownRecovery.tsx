@@ -6,7 +6,7 @@ const BreakdownRecovery = () => (
     image={heroEmergency}
     title="Breakdown Recovery"
     subtitle="Complete vehicle recovery support"
-    description="When your vehicle breaks down, we provide complete recovery support. We safely transport your vehicle to the nearest garage or your preferred destination with zero damage guaranteed."
+    description="Complete recovery when your vehicle breaks down. Safe transport to your preferred garage with zero damage."
     features={[
       { text: "Full vehicle recovery" },
       { text: "Safe and damage-free transport" },
