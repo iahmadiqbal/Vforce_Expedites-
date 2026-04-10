@@ -118,7 +118,7 @@ const TransportMoving = () => {
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-2">{service.title}</h2>
                 {service.subtitle && <h3 className="text-xl md:text-2xl font-semibold text-red-action mb-4">{service.subtitle}</h3>}
-                <p className="text-muted-foreground text-base md:text-lg mb-6 leading-relaxed text-justify">{service.desc}</p>
+                <p className="text-muted-foreground text-base md:text-lg mb-6 leading-relaxed">{service.desc}</p>
                 <Link to="/contact" className="btn-primary inline-block">
                   Contact Us
                 </Link>

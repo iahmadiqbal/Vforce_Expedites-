@@ -92,7 +92,7 @@ const Index = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Why Choose Us
         </h2>
-        <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg text-justify">
+        <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
           We are committed to delivering reliable and efficient towing and transport services with a strong focus on customer satisfaction. Whether it's an emergency or a scheduled service, our team ensures quick response times, professional handling, and complete peace of mind. We understand how stressful roadside situations can be, which is why we prioritize safety, transparency, and care in every job we handle.
         </p>
 
@@ -129,7 +129,7 @@ const Index = () => (
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">
                   {item.title}
                 </h3>
-                <p className="text-muted-foreground text-base md:text-lg leading-relaxed text-justify">
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -145,19 +145,19 @@ const Index = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Our Services
         </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-lg">
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
           We provide complete towing, transport, roadside assistance, and delivery solutions designed to handle emergencies and daily needs with speed, safety, and reliability.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((s, i) => (
             <div
               key={i}
-              className="service-card overflow-hidden group hover:shadow-2xl transition-all duration-300"
+              className="service-card overflow-hidden group hover:shadow-2xl transition-all duration-300 grid grid-rows-[250px_auto_auto_auto]"
               data-aos="fade-up"
               data-aos-delay={i * 100}
             >
               {/* Image */}
-              <div className="relative h-[250px] overflow-hidden">
+              <div className="relative overflow-hidden">
                 <img
                   src={s.image}
                   alt={s.title}
@@ -167,12 +167,16 @@ const Index = () => (
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-6 pb-2">
                 <h3 className="text-xl font-bold mb-3">{s.title}</h3>
-                <p className="text-muted-foreground text-base md:text-lg mb-4 leading-relaxed text-justify">
+              </div>
+              <div className="px-6 pb-4">
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
                   {s.desc}
                 </p>
-                <Link to="/contact" className="btn-accent text-sm py-2 px-4">
+              </div>
+              <div className="px-6 pb-6">
+                <Link to="/contact" className="btn-accent text-sm py-2 px-4 inline-block">
                   Contact Us
                 </Link>
               </div>

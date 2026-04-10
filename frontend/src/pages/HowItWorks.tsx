@@ -72,7 +72,7 @@ const HowItWorks = () => (
                   <step.icon size={40} />
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
-                <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-6 text-justify">
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-6">
                   {step.desc}
                 </p>
                 {i < steps.length - 1 && (

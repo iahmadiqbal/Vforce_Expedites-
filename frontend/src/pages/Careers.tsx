@@ -31,7 +31,7 @@ const Careers = () => (
     <section className="section-padding">
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-4">Join Our Team</h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto text-base md:text-lg text-justify">
+        <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
           We are always looking for motivated, responsible, and skilled individuals to join our team and become part of a fast-growing towing and transport service provider. If you are passionate about helping people, working in real-world emergency situations, and delivering reliable service, then this is the right place for you. We value teamwork, professionalism, and dedication, and we provide a supportive work environment where you can grow your skills and build your career in the transport and roadside assistance industry. Whether you have experience as a driver, technician, or customer support representative, we welcome individuals who are ready to learn, improve, and contribute to providing fast and reliable service to our customers every day.
         </p>
 

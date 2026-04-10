@@ -90,7 +90,7 @@ const EmergencyServices = () => {
                   <service.icon size={32} />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">{service.title}</h2>
-                <p className="text-muted-foreground text-base md:text-lg mb-6 leading-relaxed text-justify">{service.desc}</p>
+                <p className="text-muted-foreground text-base md:text-lg mb-6 leading-relaxed">{service.desc}</p>
                 <Link to="/contact" className="btn-primary inline-block">
                   Contact Us
                 </Link>
