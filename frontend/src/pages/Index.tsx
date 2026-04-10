@@ -22,28 +22,28 @@ import heroTransport from "@/assets/hero-transport.jpg";
 const services = [
   {
     title: "Emergency Services",
-    desc: "24/7 emergency towing and roadside assistance for any situation. Our professional team is always ready to help you when you're stranded. Fast vehicle pickup and transport to your desired location with care and efficiency.",
+    desc: "Our emergency service is available 24/7 for any roadside problem or unexpected vehicle breakdown. If your car stops working, gets damaged, or you are stuck in an unsafe situation, you can contact us anytime. Once we receive your call, our system immediately locates the nearest available team and sends them to your location without delay. We arrive as quickly as possible, assess the situation, and safely tow your vehicle to your preferred location such as a garage, home, or service center. This service is specially designed to help you in urgent situations where fast response and safety are most important.",
     link: "/emergency-services",
     icon: AlertCircle,
     image: "/images/Emergency Services.jpg",
   },
   {
     title: "Transport & Moving",
-    desc: "Reliable transport and moving solutions for residential and commercial needs. We handle your belongings with utmost care, ensuring safe and secure delivery. From furniture to business logistics, we've got you covered.",
+    desc: "Our transport and moving service is built for both personal and business needs. Whether you are shifting your house, moving office equipment, or transporting heavy furniture, we handle everything carefully from start to finish. All items are properly packed, loaded, and secured inside the vehicle to prevent any damage during transportation. We also provide support for small businesses that need regular delivery or logistics support. From pickup to final delivery, we make sure everything is handled professionally, safely, and on time.",
     link: "/transport-moving",
     icon: Home,
     image: "/images/Transport & Moving.jpg",
   },
   {
     title: "Roadside Assistance",
-    desc: "Battery jump starts, flat tires, lockouts and more. Quick help on the spot to get you back on the road. Our experienced technicians carry all necessary tools to handle minor repairs and emergencies efficiently.",
+    desc: "If your vehicle has a minor issue and does not require towing, our roadside assistance team is ready to help you directly at your location. This includes battery jump-starting when your car won't start, flat tire replacement, vehicle lockout assistance if keys are inside, and minor quick fixes to get your vehicle running again. Our trained technicians arrive with the necessary tools to solve the problem on the spot whenever possible, saving you time and avoiding unnecessary towing costs. This service is ideal for quick roadside problems that need immediate attention.",
     link: "/emergency-services#roadside-assistance",
     icon: Wrench,
     image: "/images/long-shot-couple-repairing-car.jpg",
   },
   {
     title: "Local Delivery",
-    desc: "Fast and secure local delivery services for your packages. Same-day delivery available for urgent shipments. We ensure your items reach their destination safely and on time, every time with professional handling.",
+    desc: "Our local delivery service provides fast, safe, and reliable transportation of packages, parcels, and urgent items within your city or nearby areas. Whether it is a personal delivery or business shipment, we ensure every item is handled carefully and delivered on time. We also offer same-day delivery for urgent requests where speed is important. Each package is properly managed from pickup to drop-off to ensure it reaches its destination safely without damage or delay. This service is perfect for both individuals and businesses needing quick delivery solutions.",
     link: "/transport-moving#same-day-delivery",
     icon: PackageCheck,
     image: "/images/full-shot-delivery-woman-car.jpg",
@@ -54,28 +54,28 @@ const whyUs = [
   {
     icon: Clock,
     title: "24/7 Availability",
-    desc: "We understand that emergencies don't follow a schedule. That's why our team is available round-the-clock, 365 days a year. Whether it's midnight or a holiday, we're just one call away to help you.",
+    desc: "Emergencies don't follow a schedule — and neither do we. Our team is available 24 hours a day, 7 days a week, including weekends and holidays, to provide immediate assistance whenever you need it. Whether you're stuck on the road late at night or facing an unexpected issue during the day, we respond quickly and efficiently. With just one call, help is always within reach, ensuring you're never left stranded.",
     image: "/images/247 Availability.jpg",
     animation: "fade-right",
   },
   {
     icon: Zap,
     title: "Fast Response Time",
-    desc: "Time is critical in emergency situations. Our strategically located fleet and efficient dispatch system ensure we reach you quickly. We pride ourselves on being the fastest response team in the region.",
+    desc: "In emergency situations, every minute matters. Our strategically positioned fleet and efficient dispatch system allow us to respond quickly to your location without unnecessary delays. As soon as you contact us, our team takes immediate action to reach you as fast as possible. We focus on minimizing your waiting time and getting you back on track safely and efficiently.",
     image: "/images/FastResponseTime.jpg",
     animation: "fade-left",
   },
   {
     icon: DollarSign,
     title: "Affordable Pricing",
-    desc: "Quality service doesn't have to break the bank. We offer competitive rates with complete transparency - no hidden fees, no surprises. Get professional service at prices that respect your budget.",
+    desc: "We believe quality service should be affordable for everyone. That's why we offer fair and competitive prices that are easy to understand. There are no hidden charges or surprise costs — you only pay for the service you receive. Before we start, we clearly explain the cost so you know exactly what you are paying for. Our goal is to give you reliable service at a price that fits your budget without any confusion.",
     image: "/images/Affordable Pricing.jpg",
     animation: "fade-right",
   },
   {
     icon: Shield,
     title: "Professional Service",
-    desc: "Our team consists of trained, licensed, and insured professionals who treat your vehicle with care. With years of experience and state-of-the-art equipment, we deliver service you can trust.",
+    desc: "Our team is fully trained, licensed, and insured to provide safe and reliable service. We handle every vehicle with care and follow proper safety procedures in every job. With years of experience and modern equipment, we make sure your vehicle is treated properly from start to finish. You can trust us to deliver professional and secure service every time.",
     image: "/images/Professional Service.jpg",
     animation: "fade-left",
   },
@@ -92,14 +92,8 @@ const Index = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Why Choose Us
         </h2>
-        <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
-          We are committed to delivering reliable and efficient towing and
-          transport services with a strong focus on customer satisfaction.
-          Whether it’s an emergency or a scheduled service, our team ensures
-          quick response times, professional handling, and complete peace of
-          mind. We understand how stressful roadside situations can be, which is
-          why we prioritize safety, transparency, and care in every job we
-          handle.
+        <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg text-justify">
+          We are committed to delivering reliable and efficient towing and transport services with a strong focus on customer satisfaction. Whether it's an emergency or a scheduled service, our team ensures quick response times, professional handling, and complete peace of mind. We understand how stressful roadside situations can be, which is why we prioritize safety, transparency, and care in every job we handle.
         </p>
 
         <div className="space-y-16">
@@ -135,7 +129,7 @@ const Index = () => (
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">
                   {item.title}
                 </h3>
-                <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed text-justify">
                   {item.desc}
                 </p>
               </div>
@@ -152,7 +146,7 @@ const Index = () => (
           Our Services
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-lg">
-          Comprehensive towing and transport solutions for all your needs
+          We provide complete towing, transport, roadside assistance, and delivery solutions designed to handle emergencies and daily needs with speed, safety, and reliability.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((s, i) => (
@@ -175,7 +169,7 @@ const Index = () => (
               {/* Content */}
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3">{s.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
+                <p className="text-muted-foreground text-base md:text-lg mb-4 leading-relaxed text-justify">
                   {s.desc}
                 </p>
                 <Link to="/contact" className="btn-accent text-sm py-2 px-4">
