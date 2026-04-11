@@ -42,9 +42,6 @@ const Footer = () => (
             <a href="mailto:vforceexpedite@gmail.com" className="flex items-start gap-1 text-primary-foreground hover:text-accent transition-colors">
               <span>📧 vforceexpedite@gmail.com</span>
             </a>
-            <a href="https://www.vforcexpedites.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-1 text-primary-foreground hover:text-accent transition-colors">
-              <span>🌐 www.vforcexpedites.com</span>
-            </a>
             <a href="tel:+14034623578" className="flex items-center gap-2 text-primary-foreground hover:text-accent transition-colors">
               <Phone size={14} className="shrink-0" />
               <span>+1 403-462-3578</span>
