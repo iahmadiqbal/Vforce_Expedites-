@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { MapPin, Phone, Facebook, Twitter, Instagram } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
@@ -57,15 +57,30 @@ const Footer = () => (
         <div>
           <h3 className="text-sm font-semibold mb-3 text-primary-foreground">Follow Us</h3>
           <div className="flex gap-3">
-            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-              <a
-                key={i}
-                href="#"
-                className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors text-primary-foreground"
-              >
-                <Icon size={16} />
-              </a>
-            ))}
+            <a
+              href="https://www.facebook.com/profile.php?id=61573486360865"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors text-primary-foreground"
+            >
+              <Facebook size={16} />
+            </a>
+            <a
+              href="https://x.com/Vforcexpedites"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors text-primary-foreground"
+            >
+              <Twitter size={16} />
+            </a>
+            <a
+              href="https://www.instagram.com/vforcexpedites/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors text-primary-foreground"
+            >
+              <Instagram size={16} />
+            </a>
           </div>
         </div>
       </div>
