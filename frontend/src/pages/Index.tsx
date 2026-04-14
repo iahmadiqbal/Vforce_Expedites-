@@ -25,28 +25,28 @@ const services = [
     desc: "24/7 roadside help for breakdowns and accidents. We locate the nearest team and reach you fast to safely tow your vehicle wherever you need.",
     link: "/emergency-services",
     icon: AlertCircle,
-    image: "/images/Emergency Services.jpg",
+    image: "/images/Emergency Services.jfif",
   },
   {
     title: "Transport & Moving",
     desc: "Safe transport for home or business moves. We handle packing, loading, and delivery with care—perfect for furniture, equipment, and regular logistics needs.",
     link: "/transport-moving",
     icon: Home,
-    image: "/images/Transport & Moving.jpg",
+    image: "/images/Transport & Moving.jfif",
   },
   {
     title: "Roadside Assistance",
     desc: "Quick on-site help for battery jumps, flat tires, lockouts, and minor fixes. Our technicians solve problems fast so you avoid towing costs.",
     link: "/emergency-services#roadside-assistance",
     icon: Wrench,
-    image: "/images/long-shot-couple-repairing-car.jpg",
+    image: "/images/Roadside Assistance.jfif",
   },
   {
     title: "Local Delivery",
     desc: "Fast and reliable delivery for packages and urgent items. Same-day service available. Every item handled with care from pickup to drop-off.",
     link: "/transport-moving#same-day-delivery",
     icon: PackageCheck,
-    image: "/images/full-shot-delivery-woman-car.jpg",
+    image: "/images/Local Delivery.jfif",
   },
 ];
 
@@ -55,28 +55,28 @@ const whyUs = [
     icon: Clock,
     title: "24/7 Availability",
     desc: "Emergencies happen anytime. We're available 24/7, including weekends and holidays. One call and help is on the way—you're never left stranded.",
-    image: "/images/247 Availability.jpg",
+    image: "/images/24 Availability.jfif",
     animation: "fade-right",
   },
   {
     icon: Zap,
     title: "Fast Response Time",
     desc: "Every minute counts. Our strategically positioned fleet and efficient dispatch get us to you quickly, minimizing your wait time.",
-    image: "/images/FastResponseTime.jpg",
+    image: "/images/Fast Response Time.jfif",
     animation: "fade-left",
   },
   {
     icon: DollarSign,
     title: "Affordable Pricing",
     desc: "Quality service at fair prices. No hidden charges—we explain costs upfront so you know exactly what you're paying for.",
-    image: "/images/Affordable Pricing.jpg",
+    image: "/images/Affordable Pricing.jfif",
     animation: "fade-right",
   },
   {
     icon: Shield,
     title: "Professional Service",
     desc: "Fully trained, licensed, and insured team. We handle every vehicle with care using modern equipment and proper safety procedures.",
-    image: "/images/Professional Service.jpg",
+    image: "/images/Professional Service.jfif",
     animation: "fade-left",
   },
 ];
@@ -157,13 +157,12 @@ const Index = () => (
               data-aos-delay={i * 100}
             >
               {/* Image */}
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden bg-white">
                 <img
                   src={s.image}
                   alt={s.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
 
               {/* Content */}

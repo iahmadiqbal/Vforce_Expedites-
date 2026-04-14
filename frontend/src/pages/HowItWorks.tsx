@@ -9,21 +9,21 @@ const steps = [
     icon: Phone,
     title: "Request a Service",
     desc: "Contact us anytime via our online form or call 24/7. Tell us what you need—towing, roadside help, transport, or delivery—and share your location. We'll immediately dispatch the nearest available vehicle to assist you.",
-    image: "/images/Request a Service.jpg"
+    image: "/images/Request a Service.jfif"
   },
   {
     num: "2",
     icon: Truck,
     title: "We Assign a Vehicle",
     desc: "Our system instantly assigns the nearest vehicle based on your location for the fastest response. Using GPS tracking and efficient dispatch, we minimize wait times and get help to you quickly.",
-    image: "/images/We Assign a Vehicle.jpg"
+    image: "/images/We Assign a Vehicle.jfif"
   },
   {
     num: "3",
     icon: CheckCircle,
     title: "Track & Complete Job",
     desc: "We track the entire process to ensure smooth, safe service. Our trained team handles your vehicle with care from start to finish, keeping you informed until the job is complete.",
-    image: "/images/Track & Complete Job.jpg"
+    image: "/images/Track & Complete Job.jfif"
   },
 ];
 
@@ -46,19 +46,16 @@ const HowItWorks = () => (
             >
               {/* Image */}
               <div 
-                className={`${i % 2 === 1 ? 'lg:order-2' : ''} relative overflow-hidden rounded-lg shadow-xl`}
+                className={`${i % 2 === 1 ? 'lg:order-2' : ''} overflow-hidden rounded-lg`}
                 data-aos={i % 2 === 0 ? "fade-right" : "fade-left"}
                 data-aos-duration="1000"
               >
                 <img 
                   src={step.image} 
                   alt={step.title}
-                  className="w-full h-[300px] md:h-[450px] object-cover object-center hover:scale-110 transition-transform duration-700"
+                  className="w-full h-[300px] md:h-[450px] object-contain"
                   loading="lazy"
                 />
-                <div className="absolute top-6 left-6 w-16 h-16 rounded-full bg-red-action text-white flex items-center justify-center text-3xl font-bold shadow-lg">
-                  {step.num}
-                </div>
               </div>
               
               {/* Content */}

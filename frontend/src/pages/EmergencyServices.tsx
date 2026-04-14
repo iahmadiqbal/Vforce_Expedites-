@@ -11,35 +11,35 @@ const services = [
     title: "24/7 Towing Services", 
     desc: "Professional towing available anytime, anywhere. We dispatch the nearest vehicle quickly to safely transport your car, SUV, motorcycle, or light truck. Fast response, careful handling, and reliable service you can trust.", 
     icon: Truck,
-    image: "/images/247 Towing Services.jpg"
+    image: "/images/Emergency Services.jfif"
   },
   { 
     id: "roadside-assistance",
     title: "Roadside Assistance", 
     desc: "Stuck on the road? We provide on-the-spot help including battery jump starts, fuel delivery, lockout assistance, and minor repairs. Our technicians arrive with the right tools to get you moving quickly.", 
     icon: Wrench,
-    image: "/images/Roadside Assistance.jpg"
+    image: "/images/Roadside Assistance.jfif"
   },
   { 
     id: "breakdown-recovery",
     title: "Breakdown Recovery", 
     desc: "Vehicle won't start? We respond quickly to safely recover and tow your vehicle to your preferred repair shop, garage, or home. Professional handling with proper equipment to prevent further damage.", 
     icon: Car,
-    image: "/images/Breakdown Recovery.jpg"
+    image: "/images/Breakdown Recovery.jfif"
   },
   { 
     id: "accident-assistance",
     title: "Accident Assistance", 
     desc: "Immediate help after an accident. We safely remove your vehicle from the scene and transport it to your chosen location. Professional recovery with documentation support for insurance claims.", 
     icon: AlertTriangle,
-    image: "/images/Accident Assistance.jpg"
+    image: "/images/Emergency Services.jfif"
   },
   { 
     id: "flat-tire-help",
     title: "Flat Tire Help", 
     desc: "Flat tire? We'll come to you and replace it with your spare on the spot. No spare? We'll tow you to the nearest tire shop. Fast, safe service to get you back on the road.", 
     icon: CircleDot,
-    image: "/images/Flat Tire Help.jpg"
+    image: "/images/Flat Tire Help.jfif"
   },
 ];
 
@@ -75,11 +75,11 @@ const EmergencyServices = () => {
           <div className="container-custom">
             <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
               {/* Image */}
-              <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+              <div className={`${index % 2 === 1 ? 'lg:order-2' : ''} overflow-hidden rounded-lg`}>
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[300px] md:h-[500px] object-cover object-center rounded-lg"
+                  className="w-full h-[300px] md:h-[500px] object-contain"
                   loading="lazy"
                 />
               </div>

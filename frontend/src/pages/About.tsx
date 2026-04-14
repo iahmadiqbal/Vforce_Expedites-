@@ -8,28 +8,28 @@ const whyUs = [
     icon: Clock, 
     title: "24/7 Availability", 
     desc: "Emergencies happen anytime. We're available 24/7, including weekends and holidays. One call and help is on the way—you're never left stranded.",
-    image: "/images/24  available.jpg",
+    image: "/images/24 Availability.jfif",
     animation: "fade-right"
   },
   { 
     icon: Zap, 
     title: "Fast Response Time", 
     desc: "Every minute counts. Our strategically positioned fleet and efficient dispatch get us to you quickly, minimizing your wait time.",
-    image: "/images/Fast Response Time.jpg",
+    image: "/images/Fast Response Time.jfif",
     animation: "fade-left"
   },
   { 
     icon: DollarSign, 
     title: "Affordable Pricing", 
     desc: "Quality service at fair prices. No hidden charges—we explain costs upfront so you know exactly what you're paying for.",
-    image: "/images/Affordable Pricing.jpg",
+    image: "/images/Affordable Pricing.jfif",
     animation: "fade-right"
   },
   { 
     icon: Shield, 
     title: "Professional Service", 
     desc: "Fully trained, licensed, and insured team. We handle every vehicle with care using modern equipment and proper safety procedures.",
-    image: "/images/Professional Service.jpg",
+    image: "/images/Professional Service.jfif",
     animation: "fade-left"
   },
 ];
@@ -50,9 +50,9 @@ const About = () => (
           </div>
           <div data-aos="fade-left">
             <img 
-              src="/images/Who We Are.jpg" 
+              src="/images/Who We Are.jfif" 
               alt="Who We Are"
-              className="w-full h-[300px] md:h-[400px] object-cover object-center rounded-lg shadow-xl"
+              className="w-full h-[300px] md:h-[400px] object-contain rounded-lg"
               loading="lazy"
             />
           </div>
@@ -116,14 +116,14 @@ const About = () => (
             >
               {/* Image */}
               <div 
-                className={`${i % 2 === 1 ? 'lg:order-2' : ''} overflow-hidden rounded-lg shadow-xl`}
+                className={`${i % 2 === 1 ? 'lg:order-2' : ''} overflow-hidden rounded-lg`}
                 data-aos={item.animation}
                 data-aos-duration="1000"
               >
                 <img 
                   src={item.image} 
                   alt={item.title}
-                  className="w-full h-[300px] md:h-[400px] object-cover object-center hover:scale-110 transition-transform duration-700"
+                  className="w-full h-[300px] md:h-[400px] object-contain"
                   loading="lazy"
                 />
               </div>

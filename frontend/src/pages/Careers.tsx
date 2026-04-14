@@ -8,19 +8,19 @@ const positions = [
     icon: Truck,
     title: "Driver Operator",
     desc: "Skilled drivers needed to safely operate tow trucks and transport vehicles. Must have a valid commercial license with clean record and towing experience. Ensure safe vehicle handling and professional customer service.",
-    image: "/images/DriverOperator.jpg"
+    image: "/images/Driver Operator.jfif"
   },
   {
     icon: Headphones,
     title: "Customer Support Executive",
     desc: "Handle emergency calls and coordinate dispatches. Be the first point of contact for customers in need. Strong communication and multitasking skills required to manage schedules and ensure timely response.",
-    image: "/images/Customer Support Executive.jpg"
+    image: "/images/Customer Support Executive.jfif"
   },
   {
     icon: Users,
     title: "Fleet Coordinator",
     desc: "Manage fleet operations and keep all vehicles road-ready. Schedule maintenance, coordinate logistics, and oversee assignments. Fleet management experience preferred. Optimize routes for maximum efficiency.",
-    image: "/images/Fleet Coordinator.jpg"
+    image: "/images/Fleet Coordinator.jfif"
   },
 ];
 
@@ -48,10 +48,9 @@ const Careers = () => (
                 <img 
                   src={pos.image} 
                   alt={pos.title}
-                  className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               </div>
               
               {/* Content */}

@@ -10,7 +10,7 @@ const services = [
     subtitle: "House shifting • Local relocation",
     desc: "Easy, safe house shifting and local relocation. We pack, load, transport, and unload your items with care. Professional handling from start to finish for a stress-free move.", 
     icon: Home,
-    image: "/images/Local Moving Services.jpg"
+    image: "/images/Local Delivery.jfif"
   },
   { 
     id: "furniture-item-shifting",
@@ -18,7 +18,7 @@ const services = [
     subtitle: "Heavy item moving • Safe handling",
     desc: "Safe moving for all furniture and household items. We use proper lifting, protective packing, and secure loading. Large items are disassembled, transported, and reassembled at your destination.", 
     icon: Sofa,
-    image: "/images/Furniture & Item Shifting.jpg"
+    image: "/images/Furniture & Item Shifting.jfif"
   },
   { 
     id: "same-day-delivery",
@@ -26,7 +26,7 @@ const services = [
     subtitle: "Fast delivery • Urgent shipments",
     desc: "Urgent delivery within the same day. Immediate pickup with fast dispatch to your destination. Perfect for important documents, business packages, or time-sensitive items.", 
     icon: Zap,
-    image: "/images/Same-Day Delivery.jpg"
+    image: "/images/Local Delivery.jfif"
   },
   { 
     id: "small-load-transport",
@@ -34,7 +34,7 @@ const services = [
     subtitle: "Small goods transport • Budget-friendly solution",
     desc: "Affordable transport for small loads. Perfect for a few items, boxes, or light goods. Pay only for the space you need—budget-friendly and reliable.", 
     icon: Package,
-    image: "/images/Small Load Transport.jpg"
+    image: "/images/Small Load Transport.jfif"
   },
   { 
     id: "business-logistics-support",
@@ -42,7 +42,7 @@ const services = [
     subtitle: "Business transport • Regular logistics service",
     desc: "Complete logistics support for businesses. Regular or one-time transport for inventory, equipment, and supplies. Timely delivery to keep your operations running smoothly.", 
     icon: Building,
-    image: "/images/Business Logistics Support.jpg"
+    image: "/images/Business Logistics Support.jfif"
   },
 ];
 
@@ -102,11 +102,11 @@ const TransportMoving = () => {
           <div className="container-custom">
             <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
               {/* Image */}
-              <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+              <div className={`${index % 2 === 1 ? 'lg:order-2' : ''} overflow-hidden rounded-lg`}>
                 <img 
                   src={service.image} 
                   alt={service.title}
-                  className="w-full h-[300px] md:h-[500px] object-cover object-center rounded-lg"
+                  className="w-full h-[300px] md:h-[500px] object-contain"
                   loading="lazy"
                 />
               </div>
