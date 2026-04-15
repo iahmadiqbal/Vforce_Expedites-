@@ -98,11 +98,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <a href="mailto:info@vforcexpedites.com" className="text-muted-foreground hover:text-accent transition-colors block">
-                      info@vforcexpedites.com
+                    <a href="mailto:info@vforceexpedites.com" className="text-muted-foreground hover:text-accent transition-colors block">
+                      info@vforceexpedites.com
                     </a>
-                    <a href="mailto:vforceexpedite@gmail.com" className="text-muted-foreground hover:text-accent transition-colors block">
-                      vforceexpedite@gmail.com
+                    <a href="mailto:vforcexpedites@gmail.com" className="text-muted-foreground hover:text-accent transition-colors block">
+                      vforcexpedites@gmail.com
                     </a>
                   </div>
                 </div>
