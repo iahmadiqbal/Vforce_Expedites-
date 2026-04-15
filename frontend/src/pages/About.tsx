@@ -45,7 +45,7 @@ const About = () => (
           <div data-aos="fade-right">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
             <p className="text-muted-foreground leading-relaxed text-base md:text-lg mb-4">
-              We're a professional emergency towing and transport service in Orangeville, Ontario. With years of experience, we've built a reputation for fast, reliable service you can trust. Our trained team is available 24/7 with modern equipment to handle any roadside emergency or transport need safely and efficiently.
+              We're a professional emergency towing and transport service in Canada. With years of experience, we've built a reputation for fast, reliable service you can trust. Our trained team is available 24/7 with modern equipment to handle any roadside emergency or transport need safely and efficiently.
             </p>
           </div>
           <div data-aos="fade-left">
@@ -92,7 +92,7 @@ const About = () => (
               </div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-                To become Ontario's most trusted towing and transport provider, known for consistent quality and reliability. We aim to set new industry standards through excellence, transparency, and customer satisfaction—becoming the first name people think of when they need help.
+                To become Canada's most trusted towing and transport provider, known for consistent quality and reliability. We aim to set new industry standards through excellence, transparency, and customer satisfaction—becoming the first name people think of when they need help.
               </p>
             </div>
           </div>
