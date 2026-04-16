@@ -32,7 +32,7 @@ const services = [
     desc: "Safe transport for home or business moves. We handle packing, loading, and delivery with care—perfect for furniture, equipment, and regular logistics needs.",
     link: "/transport-moving",
     icon: Home,
-    image: "/images/Transport & Moving.jfif",
+    image: "/images/Transport & Moving.jpeg",
   },
   {
     title: "Roadside Assistance",
