@@ -25,7 +25,7 @@ const services = [
     desc: "24/7 roadside help for breakdowns and accidents. We locate the nearest team and reach you fast to safely tow your vehicle wherever you need.",
     link: "/emergency-services",
     icon: AlertCircle,
-    image: "/images/Emergency Services.jfif",
+    image: "/images/Emergency_Services.jpeg",
   },
   {
     title: "Transport & Moving",
@@ -161,7 +161,7 @@ const Index = () => (
                 <img
                   src={s.image}
                   alt={s.title}
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
 
