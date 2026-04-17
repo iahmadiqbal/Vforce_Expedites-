@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Truck, CheckCircle, ArrowRight } from "lucide-react";
+import { Phone, Truck, CheckCircle } from "lucide-react";
 import heroHome from "@/assets/hero-home.jpg";
 import HeroBanner from "@/components/HeroBanner";
 
@@ -72,12 +72,6 @@ const HowItWorks = () => (
                 <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-6">
                   {step.desc}
                 </p>
-                {i < steps.length - 1 && (
-                  <div className="flex items-center gap-2 text-red-action font-semibold">
-                    <span>Next Step</span>
-                    <ArrowRight size={20} />
-                  </div>
-                )}
               </div>
             </div>
           ))}

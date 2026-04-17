@@ -39,7 +39,7 @@ const services = [
     desc: "Quick on-site help for battery jumps, flat tires, lockouts, and minor fixes. Our technicians solve problems fast so you avoid towing costs.",
     link: "/emergency-services#roadside-assistance",
     icon: Wrench,
-    image: "/images/Availiby.jpeg",
+    image: "/images/Road_Assistance.jpeg",
   },
   {
     title: "Local Delivery",

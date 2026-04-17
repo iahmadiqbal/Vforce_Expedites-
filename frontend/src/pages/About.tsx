@@ -8,7 +8,7 @@ const whyUs = [
     icon: Clock, 
     title: "24/7 Availability", 
     desc: "Emergencies happen anytime. We're available 24/7, including weekends and holidays. One call and help is on the way—you're never left stranded.",
-    image: "/images/Emergency_Services.jpeg",
+    image: "/images/Availiby.jpeg",
     animation: "fade-right"
   },
   { 
