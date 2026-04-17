@@ -18,7 +18,7 @@ const services = [
     title: "Roadside Assistance", 
     desc: "Stuck on the road? We provide on-the-spot help including battery jump starts, fuel delivery, lockout assistance, and minor repairs. Our technicians arrive with the right tools to get you moving quickly.", 
     icon: Wrench,
-    image: "/images/Roadside Assistance.jfif"
+    image: "/images/Availiby.jpeg"
   },
   { 
     id: "breakdown-recovery",

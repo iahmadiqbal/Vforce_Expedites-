@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Facebook, Twitter, Instagram } from "lucide-react";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Footer = () => (
   <footer className="text-foreground" style={{ backgroundColor: '#FEFCE8' }}>
@@ -37,10 +38,12 @@ const Footer = () => (
           <h3 className="text-sm font-semibold mb-3 text-foreground">Contact Info</h3>
           <div className="space-y-2 text-sm">
             <a href="mailto:info@vforceexpedites.com" className="flex items-start gap-1 text-foreground hover:text-accent transition-colors">
-              <span>📧 info@vforceexpedites.com</span>
+              <MdOutlineEmail size={16} className="mt-0.5 shrink-0" />
+              <span>info@vforceexpedites.com</span>
             </a>
             <a href="mailto:vforcexpedites@gmail.com" className="flex items-start gap-1 text-foreground hover:text-accent transition-colors">
-              <span>📧 vforcexpedites@gmail.com</span>
+              <MdOutlineEmail size={16} className="mt-0.5 shrink-0" />
+              <span>vforcexpedites@gmail.com</span>
             </a>
             <a href="tel:+14034623578" className="flex items-center gap-2 text-foreground hover:text-accent transition-colors">
               <Phone size={14} className="shrink-0" />
