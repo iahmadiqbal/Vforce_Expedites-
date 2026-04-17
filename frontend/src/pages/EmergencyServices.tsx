@@ -32,7 +32,7 @@ const services = [
     title: "Accident Assistance", 
     desc: "Immediate help after an accident. We safely remove your vehicle from the scene and transport it to your chosen location. Professional recovery with documentation support for insurance claims.", 
     icon: AlertTriangle,
-    image: "/images/Emergency Services.jfif"
+    image: "/images/Emergency_Services.jpeg"
   },
   { 
     id: "flat-tire-help",
