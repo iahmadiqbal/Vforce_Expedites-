@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ImmediateHelpButton from "@/components/ImmediateHelpButton";
 import {
   Phone,
   Clock,
@@ -191,13 +192,10 @@ const Index = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
           Need Immediate Assistance? We're Available 24/7
         </h2>
-        <a
-          href="tel:+14034623578"
+        <ImmediateHelpButton
           className="btn-primary text-lg py-3 px-8 inline-flex items-center gap-2 bg-white text-red-action hover:bg-gray-100"
-        >
-          <Phone size={20} />
-          Immediate Help
-        </a>
+          iconSize={20}
+        />
       </div>
     </section>
   </div>
